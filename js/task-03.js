@@ -13,7 +13,7 @@ document.getElementById('task-tree').addEventListener('click', () => {
     }
 
     removeItem(item) {
-      if (this.items.indexOf(item) != -1) {
+      if (this.items.indexOf(item) !== -1) {
         this.items.splice(this.items.indexOf(item), 1);
       }
     }
